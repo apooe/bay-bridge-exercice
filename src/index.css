@@ -1,1 +1,13 @@
 
+.cartRow{
+    width: 100%;
+    padding: 10px;
+}
+
+.cartRow img {
+    width: 80px;
+}
+
+.table td {
+    vertical-align: middle;
+}
