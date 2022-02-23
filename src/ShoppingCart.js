@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import ShoppingCartRow from "./ShoppingCartRow";
 import PropTypes from "prop-types";
 
@@ -43,7 +43,7 @@ const ShoppingCart = ({
   );
 };
 
-ShoppingCart.PropTypes = {
+ShoppingCart.propTypes = {
   products: PropTypes.array.isRequired,
   cartContent: PropTypes.array.isRequired,
   onCartChanged: PropTypes.func.isRequired,
